@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2013 The Android Open Source Project
+     Copyright (C) 2016 The Hardslog Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,6 +17,6 @@
 
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_pressed="true"
-          android:drawable="@color/key_background_pressed_lxx_light" />
-    <item android:drawable="@color/key_background_lxx_light" />
+          android:drawable="@*android:drawable/btn_keyboard_key_pressed" />
+    <item android:drawable="@*android:drawable/btn_keyboard_key_normal" />
 </selector>
